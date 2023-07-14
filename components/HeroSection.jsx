@@ -22,8 +22,8 @@ function HeroSection() {
                     />
                 </div>
             </div>
-            <div className=" md:w-2/4 md:mt-8 lg:mt-0 lg:w-1/4 flex flex-col md:justify-center  px-8  md:absolute top-0 " style={{ height: "100%" }}>
-                <h1 className='mb-10  text-[#5A5A5A] text-2xl font-extrabold leading-8 '>
+            <div className=" md:w-2/4 md:mt-8 lg:mt-0 lg:w-2/4 flex flex-col md:justify-center  px-8  md:absolute top-0 " style={{ height: "100%" }}>
+                <h1 className='mb-10 w-3/4  text-[#5A5A5A] md:text-2xl lg:text-4xl 2xl:text-6xl font-medium leading-16 '>
 
                     Senior care services
                     designed to <span className='text-[#CB5A6F]'>support

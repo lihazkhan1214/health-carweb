@@ -6,7 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 function Footer() {
     return (
-        <div className="bg-[#F5F5F5] px-8 py-4  flex flex-col md:flex-row  items-center justify-between">
+        <div className="bg-[#F5F5F5] px-8 py-10  flex flex-col md:flex-row  items-center justify-between">
             <div className="md:w-1/4">
                 <Image src="/img/Seasoned Senior logo-03 1.png" width={150} height={150} />
                 <div className="mt-1 hidden md:block font-sm font-thin text-[#020202]">
