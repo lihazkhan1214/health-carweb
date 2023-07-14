@@ -1,0 +1,20 @@
+@import url('https://fonts.cdnfonts.com/css/frutiger-lt-pro');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  
+
+
+
+
+body {
+
+ background-color: #EBEBEB;
+ font-family: 'Frutiger LT Pro', sans-serif;
+
+}
+/* .bgImage{
+  width: 100vw;
+  height: "100vh";
+} */
