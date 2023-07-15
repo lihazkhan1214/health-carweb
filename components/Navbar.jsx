@@ -36,20 +36,20 @@ const Navbar = () => {
       </div>
       <div className=" hidden md:block">
 
-      <nav className="w-full h-10  flex items-center justify-between bg-[#FFF] py-2 px-10">
+        <nav className="w-full h-10  flex items-center justify-between bg-[#FFF] py-2 px-10">
 
 
-        <Link className='text-lg font-normal text-[#020202] ' href='/'>About</Link>
+          <Link className='text-lg font-normal text-[#020202] ' href='/'>About</Link>
 
-        <Link className='underline text-[#CB5A6F] text-lg font-normal ' href='/services'>Services</Link>
-        <Link  className='text-lg font-normal text-[#020202] ' href='/'>Senior Events</Link>
-        <Link  className='text-lg font-normal text-[#020202] ' href='/'>Specialized Care</Link>
-        <Link  className='text-lg font-normal text-[#020202] ' href='/'>How it Works</Link>
-        <Link  className='text-lg font-normal text-[#020202] ' href='/'>Schedule a Meeting</Link>
+          <Link className='underline text-[#CB5A6F] text-lg font-normal ' href='/services'>Services</Link>
+          <Link className='text-lg font-normal text-[#020202] ' href='/'>Senior Events</Link>
+          <Link className='text-lg font-normal text-[#020202] ' href='/'>Specialized Care</Link>
+          <Link className='text-lg font-normal text-[#020202] ' href='/'>How it Works</Link>
+          <Link className='text-lg font-normal text-[#020202] ' href='/'>Schedule a Meeting</Link>
 
 
 
-      </nav>
+        </nav>
       </div>
 
 
@@ -58,10 +58,7 @@ const Navbar = () => {
       <nav className="bg-[#FFF]   md:hidden">
         <div className="w-full ">
           <div className="flex items-center justify-between h-16">
-            <div className="flex items-center">
-
-             
-            </div>
+            
             <div className="-mr-2 flex">
               <button
                 onClick={toggleMenu}
@@ -77,19 +74,19 @@ const Navbar = () => {
             </div>
           </div>
           {isMenuOpen && (
-           
-              <div className="flex flex-col justify-betwee">
+
+            <div className="flex flex-col justify-between">
 
               <Link className='text-lg font-normal text-[#020202] ' href='/'>About</Link>
 
               <Link className='underline text-[#CB5A6F] text-lg font-normal ' href='/services'>Services</Link>
-              <Link  className='text-lg font-normal text-[#020202] ' href='/'>Senior Events</Link>
-              <Link  className='text-lg font-normal text-[#020202] ' href='/'>Specialized Care</Link>
-              <Link  className='text-lg font-normal text-[#020202] ' href='/'>How it Works</Link>
-              <Link  className='text-lg font-normal text-[#020202] ' href='/'>Schedule a Meeting</Link>
+              <Link className='text-lg font-normal text-[#020202] ' href='/'>Senior Events</Link>
+              <Link className='text-lg font-normal text-[#020202] ' href='/'>Specialized Care</Link>
+              <Link className='text-lg font-normal text-[#020202] ' href='/'>How it Works</Link>
+              <Link className='text-lg font-normal text-[#020202] ' href='/'>Schedule a Meeting</Link>
 
 
-              
+
             </div>
           )}
         </div>

@@ -15,15 +15,15 @@ function HeroSection() {
                         alt="Description"
 
                         width={4000}
-                        height={700}
+                        height={750}
 
 
 
                     />
                 </div>
             </div>
-            <div className=" md:w-2/4 md:mt-8 lg:mt-0 lg:w-2/4 flex flex-col md:justify-center  px-8  md:absolute top-0 " style={{ height: "100%" }}>
-                <h1 className='mb-10 w-3/4  text-[#5A5A5A] md:text-2xl lg:text-4xl 2xl:text-6xl font-medium leading-16 '>
+            <div className=" sm:w-2/4 md:mt-4 lg:mt-0 lg:w-2/4 flex flex-col justify-center sm:ml-10  absolute top-0 " style={{ height: "100%" }}>
+                <h1 className='ml-2 sm:ml-0 mb-2 sm:mb-10 w-2/4 sm:w-3/4  text-[#5A5A5A] text-sm sm:text-lg  md:text-2xl lg:text-4xl 2xl:text-6xl font-medium leading-16 '>
 
                     Senior care services
                     designed to <span className='text-[#CB5A6F]'>support
@@ -37,9 +37,9 @@ function HeroSection() {
 
 
 
-                <div className='mb-10 text-sm text-[#2F2F2F]'>Our services are delivered by trained professionals</div>
+                <div className='hidden sm:block sm:mb-10  text-[#2F2F2F]  text-xs lg:text-sm sm:w-2/4 lg:w-full'>Our services are delivered by trained professionals</div>
                 <div className="">
-                    <button className='bg-[#CB5A6F] mb-10 text-[#FFF] text-base font-bold rounded px-4 py-2'>Apply For Care</button>
+                    <button className='bg-[#CB5A6F] ml-2 sm:ml-0 mb-2 sm:mb-10 text-[#FFF] text-xs sm:text-base font-bold rounded px-4 py-2'>Apply For Care</button>
                 </div></div>
 
 
